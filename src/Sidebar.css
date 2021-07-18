@@ -1,0 +1,41 @@
+.sidebar {
+    background-color: #fff;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    box-shadow: -2px -2px 7px-5px rgba(0, 0, 0, 0.75);
+}
+
+.MuiSvgIcon-root {
+    color: #ACBBD0;
+    cursor: pointer;
+}
+
+.logo > .MuiSvgIcon-root {
+    color: #dc3d21;
+    font-size: 30px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+}
+
+.active {
+    background-color: #dc3d21;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.setting {
+    bottom: 38px;
+}
+

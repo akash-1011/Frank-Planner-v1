@@ -1,0 +1,68 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    width: fit-content;
+}
+
+.calendar > p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    color: black;
+    font-size: large;
+}
+
+.dates {
+    width: 300px;
+    background-color: #dc3d21;
+    padding: 20px 10px 15px 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.react-calendar__navigation__prev-button,.react-calendar__navigation__next-button {
+    display: none;
+}
+
+button {
+    padding: 2px;
+}
+
+.react-calendar__navigation > button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+
+.react-calendar__month-view__days {
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.react-calendar__month-view__days > button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.react-calendar__navigation__prev2-button,.react-calendar__navigation__next2-button {
+    background-color: white;
+}
+
+.button {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}

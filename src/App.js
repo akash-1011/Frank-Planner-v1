@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { Avatar } from '@material-ui/core';
 import './App.css';
+import Calender from './Calender';
+import Sidebar from './Sidebar';
+import Timeline from './Timeline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className='app-left'>
+        <Sidebar />
+      </div>
+      <div className='app-right'>
+        <div className='top'>
+          <div className='title'>
+            <p>Frank's planner</p>
+          </div>
+          <div className='user'>
+            <p>Frank Guerrero</p>
+            <Avatar src='http://placeimg.com/80/80/person' />
+          </div>
+        </div>
+        <div className='bottom'>
+          <Calender />
+          <Timeline />
+        </div>
+      </div>    
     </div>
   );
 }
